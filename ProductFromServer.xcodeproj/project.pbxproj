@@ -13,9 +13,16 @@
 		32073BAA1EC0071E00FF6284 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32073BA81EC0071E00FF6284 /* Main.storyboard */; };
 		32073BAC1EC0072000FF6284 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32073BAB1EC0072000FF6284 /* Assets.xcassets */; };
 		32073BAF1EC0072000FF6284 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32073BAD1EC0072000FF6284 /* LaunchScreen.storyboard */; };
+		32073BB81EC029B100FF6284 /* HappyMotherDay-320x568.png in Resources */ = {isa = PBXBuildFile; fileRef = 32073BB71EC029B100FF6284 /* HappyMotherDay-320x568.png */; };
+		32073BBB1EC02FE700FF6284 /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 32073BBA1EC02FE700FF6284 /* Product.m */; };
+		32073BBE1EC0335900FF6284 /* ProductTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32073BBD1EC0335900FF6284 /* ProductTableViewController.m */; };
+		32073BC11EC03C6B00FF6284 /* ProductDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32073BC01EC03C6B00FF6284 /* ProductDetailViewController.m */; };
+		6FE3EB3F3DDC68399B9F4F62 /* libPods-ProductFromServer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DD54A07B85CFBFCF9BFE090 /* libPods-ProductFromServer.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1DD54A07B85CFBFCF9BFE090 /* libPods-ProductFromServer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ProductFromServer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28A36CFD210A6EC2A99E2CEB /* Pods-ProductFromServer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProductFromServer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ProductFromServer/Pods-ProductFromServer.debug.xcconfig"; sourceTree = "<group>"; };
 		32073B9C1EC0071D00FF6284 /* ProductFromServer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductFromServer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32073BA01EC0071D00FF6284 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32073BA21EC0071D00FF6284 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +33,14 @@
 		32073BAB1EC0072000FF6284 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32073BAE1EC0072000FF6284 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32073BB01EC0072100FF6284 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32073BB71EC029B100FF6284 /* HappyMotherDay-320x568.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HappyMotherDay-320x568.png"; sourceTree = "<group>"; };
+		32073BB91EC02FE700FF6284 /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		32073BBA1EC02FE700FF6284 /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		32073BBC1EC0335900FF6284 /* ProductTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductTableViewController.h; sourceTree = "<group>"; };
+		32073BBD1EC0335900FF6284 /* ProductTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductTableViewController.m; sourceTree = "<group>"; };
+		32073BBF1EC03C6B00FF6284 /* ProductDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductDetailViewController.h; sourceTree = "<group>"; };
+		32073BC01EC03C6B00FF6284 /* ProductDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductDetailViewController.m; sourceTree = "<group>"; };
+		86AA1F24C82E812426FC28DE /* Pods-ProductFromServer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ProductFromServer.release.xcconfig"; path = "Pods/Target Support Files/Pods-ProductFromServer/Pods-ProductFromServer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FE3EB3F3DDC68399B9F4F62 /* libPods-ProductFromServer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +60,8 @@
 			children = (
 				32073B9E1EC0071D00FF6284 /* ProductFromServer */,
 				32073B9D1EC0071D00FF6284 /* Products */,
+				C56F7019A9C3682AC96EAE98 /* Pods */,
+				EB467ED2A877A8F4F48EBA49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +76,7 @@
 		32073B9E1EC0071D00FF6284 /* ProductFromServer */ = {
 			isa = PBXGroup;
 			children = (
+				32073BB61EC0299E00FF6284 /* Images */,
 				32073BA21EC0071D00FF6284 /* AppDelegate.h */,
 				32073BA31EC0071E00FF6284 /* AppDelegate.m */,
 				32073BA51EC0071E00FF6284 /* ViewController.h */,
@@ -67,6 +86,12 @@
 				32073BAD1EC0072000FF6284 /* LaunchScreen.storyboard */,
 				32073BB01EC0072100FF6284 /* Info.plist */,
 				32073B9F1EC0071D00FF6284 /* Supporting Files */,
+				32073BB91EC02FE700FF6284 /* Product.h */,
+				32073BBA1EC02FE700FF6284 /* Product.m */,
+				32073BBC1EC0335900FF6284 /* ProductTableViewController.h */,
+				32073BBD1EC0335900FF6284 /* ProductTableViewController.m */,
+				32073BBF1EC03C6B00FF6284 /* ProductDetailViewController.h */,
+				32073BC01EC03C6B00FF6284 /* ProductDetailViewController.m */,
 			);
 			path = ProductFromServer;
 			sourceTree = "<group>";
@@ -79,6 +104,31 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		32073BB61EC0299E00FF6284 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				32073BB71EC029B100FF6284 /* HappyMotherDay-320x568.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C56F7019A9C3682AC96EAE98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28A36CFD210A6EC2A99E2CEB /* Pods-ProductFromServer.debug.xcconfig */,
+				86AA1F24C82E812426FC28DE /* Pods-ProductFromServer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EB467ED2A877A8F4F48EBA49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1DD54A07B85CFBFCF9BFE090 /* libPods-ProductFromServer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32073BB31EC0072100FF6284 /* Build configuration list for PBXNativeTarget "ProductFromServer" */;
 			buildPhases = (
+				75F1402AE18D489D23CFECF2 /* [CP] Check Pods Manifest.lock */,
 				32073B981EC0071C00FF6284 /* Sources */,
 				32073B991EC0071C00FF6284 /* Frameworks */,
 				32073B9A1EC0071C00FF6284 /* Resources */,
+				3E20CB6A5551B91E81A8E3EB /* [CP] Embed Pods Frameworks */,
+				9D8C9AAD2F7C94563E045D4D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,6 +192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32073BAF1EC0072000FF6284 /* LaunchScreen.storyboard in Resources */,
+				32073BB81EC029B100FF6284 /* HappyMotherDay-320x568.png in Resources */,
 				32073BAC1EC0072000FF6284 /* Assets.xcassets in Resources */,
 				32073BAA1EC0071E00FF6284 /* Main.storyboard in Resources */,
 			);
@@ -146,12 +200,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E20CB6A5551B91E81A8E3EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProductFromServer/Pods-ProductFromServer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75F1402AE18D489D23CFECF2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9D8C9AAD2F7C94563E045D4D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ProductFromServer/Pods-ProductFromServer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32073B981EC0071C00FF6284 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32073BBE1EC0335900FF6284 /* ProductTableViewController.m in Sources */,
 				32073BA71EC0071E00FF6284 /* ViewController.m in Sources */,
+				32073BBB1EC02FE700FF6284 /* Product.m in Sources */,
+				32073BC11EC03C6B00FF6284 /* ProductDetailViewController.m in Sources */,
 				32073BA41EC0071E00FF6284 /* AppDelegate.m in Sources */,
 				32073BA11EC0071D00FF6284 /* main.m in Sources */,
 			);
@@ -271,6 +376,7 @@
 		};
 		32073BB41EC0072100FF6284 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28A36CFD210A6EC2A99E2CEB /* Pods-ProductFromServer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8KD2N297A7;
@@ -284,6 +390,7 @@
 		};
 		32073BB51EC0072100FF6284 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86AA1F24C82E812426FC28DE /* Pods-ProductFromServer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8KD2N297A7;
@@ -314,6 +421,7 @@
 				32073BB51EC0072100FF6284 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
